@@ -42,7 +42,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'You reached the help page!', 
-        message: 'You need to call support for more details!!!'
+        message: ''
     })
 })
 
